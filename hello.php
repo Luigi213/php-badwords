@@ -19,7 +19,7 @@
         </div>
         <div>
             <h4>Lunghezza paragrafo:</h4>
-            <p><?php echo strlen($pagraph) ?></p>
+            <p><?php echo strlen($pagraph) ?>: Lettere</p>
         </div>
     </body>
 </html>
