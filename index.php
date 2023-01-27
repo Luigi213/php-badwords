@@ -1,5 +1,7 @@
-<?php 
-
+<?php
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
 ?>
 
 <!DOCTYPE html>
@@ -11,6 +13,10 @@
         <title>Document</title>
     </head>
     <body>
-        <h1><?php ?></h1>
+        <form action="./hello.php" method="POST">
+            <input type="text" name="pagraph" id="pagraph" placeholder="Paragrafo da inserire ">
+            <input type="text" name="word" id="word" placeholder="Parola da censurare">
+            <button type="sumbit">Send</button>
+        </form>
     </body>
 </html>
