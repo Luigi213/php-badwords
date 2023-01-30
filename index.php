@@ -14,7 +14,7 @@
     </head>
     <body>
         <form action="./hello.php" method="POST">
-            <input type="text" name="pagraph" id="pagraph" placeholder="Paragrafo da inserire ">
+            <textarea name="pagraph" id="pagraph" placeholder="Paragrafo da inserire"></textarea>
             <input type="text" name="word" id="word" placeholder="Parola da censurare">
             <button type="sumbit">Send</button>
         </form>
